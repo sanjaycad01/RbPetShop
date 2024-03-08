@@ -8,15 +8,43 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-.menu{
-    background-color: white;
-    height: 2rem;
+.intro_logo{
+    height: 3rem;
+    padding-top: 0.4rem;
+    background-color:rgba(248, 75, 12, 0.856);
+   
+}
+.details{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    color: white;
+    margin-left: 6rem;
+    
+    
 }
-.menu a{
-    margin:0.4rem;
-    font-size: larger;
-    text-decoration: none;
+.fisrt_details{
+    display: flex; 
+    gap:2rem;
+    margin-right: 5rem;
+   
 }
+.fisrt_details i{
+    margin-top: 0.4rem;
+} 
+.address{
+    display: flex;
+    gap:0.5rem
+}
+.second_details{
+    margin-left: 5rem;
+    
+   
+} 
+.second_details a{
+    display: inline-block;
+    margin-right: 2rem;
+    color: white;
+    margin-top: 0.2rem;
+   
+}
+
