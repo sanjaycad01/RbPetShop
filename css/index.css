@@ -3,11 +3,23 @@
     padding: 0%;
     box-sizing: border-box;
 }
-body{
+/* body{
     background-image: url(/image/gold.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+} */
+/* header{
+    border: 3px solid black;
+    background-color: blue;
+
+    
 }
+section{
+    border: 3px solid black;
+    background-color: blue;
+
+
+} */
 .intro_logo{
     height: 3rem;
     padding-top: 0.4rem;
@@ -49,18 +61,39 @@ body{
 .third_details{
     display: flex;
     justify-content: space-around;
-    height: 3rem;
-    background-color: white;
+    height: 10vh;
+    background-color: orange;
+    /* border: 2px solid violet; */
 }
 .third_details li  {
-    padding-top: 0.5rem;
+    padding-top: 1.2rem;
     list-style: none;  
-  
-   
+ 
 }
 .third_details a{
     text-decoration: none;   
+    color: black;
 }
+
+/********************************************* MAIN STYLE *******************************************************************/
+main{
+    margin-top:4.5%;
+}
+.main_image{
+    width: 100%;
+    height: 90vh;
+}
+.first_img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.first_img img{
+    width: 50%;
+
+}
+
+
 
 
 
