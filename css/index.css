@@ -37,8 +37,7 @@ body{
 }
 .second_details{
     margin-left: 5rem;
-    
-   
+     
 } 
 .second_details a{
     display: inline-block;
@@ -47,4 +46,21 @@ body{
     margin-top: 0.2rem;
    
 }
+.third_details{
+    display: flex;
+    justify-content: space-around;
+    height: 3rem;
+    background-color: white;
+}
+.third_details li  {
+    padding-top: 0.5rem;
+    list-style: none;  
+  
+   
+}
+.third_details a{
+    text-decoration: none;   
+}
+
+
 
