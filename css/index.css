@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+
 }
 /* body{
     background-image: url(/image/gold.jpeg);
@@ -82,16 +83,121 @@ main{
 .main_image{
     width: 100%;
     height: 90vh;
+
 }
 .first_img{
     display: flex;
     width: 100%;
     height: 100%;
+    position: absolute;
+    z-index: -1;
+
 }
 .first_img img{
     width: 50%;
 
 }
+.par{
+    position: relative;
+    width: 50%;
+    height: 50vh;
+    background-color: red;
+    
+}
+.par .sec {
+    position: absolute;
+    top: 0px;
+    background-color: blue;
+    
+} 
+.cont{
+    position: relative;
+    width: 100%;
+    border: 2px solid black;
+}
+.item{
+
+}
+ .rb{
+    width:100%;
+    height: 85vh;
+    display: flex;
+
+}
+.rb img{
+    width: 50%;
+}
+.content{
+    position: absolute;
+    top:40%;
+    left:5%;
+}
+.content .name{
+    font-size: larger;
+    text-transform: uppercase;
+    color: white;
+    opacity: 0;
+    animation: animate 1s ease-in-out 0.6s 1 forwards;
+}
+.content .des{
+    width: 40%;
+    color: white;
+    text-align: justify;
+    opacity: 0;
+    animation: animate 1s ease-in-out 0.6s 1 forwards;
+}
+.content button{
+    width: 10%;
+    padding:1rem;
+    border-radius: 2rem;
+    background-color:transparent;
+    opacity: 0;
+    animation: animate 1s ease-in-out 0.6s 1 forwards;
+    /* transition: all linear ; */
+}
+.content button:hover{
+    background-color:orange; 
+    box-shadow: 5px 5px black;
+    /* background-color:linear-gradient(to left, #ff0000   #ff0000 0 50%, #ff0000 50%, #ff0000); */
+}
+
+@keyframes animate {
+    from{
+        opacity: 0;
+        transform: translate(0, 100px);
+        filter: blur(33px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translate(0);
+        filter: blur(0);
+    }
+}
+
+
+
+/*******************************************Shape Divider*************************************/
+/* .custom-shape-divider-top-1710660925 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1710660925 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-top-1710660925 .shape-fill {
+    fill: #FFFFFF;
+} */
+
 
 
 
