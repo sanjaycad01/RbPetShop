@@ -162,13 +162,31 @@ main{
 }
 
 @keyframes animate {
-    from{
+    0%{
         opacity: 0;
         transform: translate(0, 100px);
         filter: blur(33px);
     }
+    25%{
+        opacity: 0.25;
+        transform: translate(0, 75px);
+        filter: blur(25px);
 
-    to{
+    }
+    50%{
+        opacity: 0.5;
+        transform: translate(0px, 50px);
+        filter: blur(18px);
+
+    }
+    75%{
+        opacity: 0.75;
+        transform: translate(0px, 25px);
+        filter: blur(10px);
+
+    }
+
+    100%{
         opacity: 1;
         transform: translate(0);
         filter: blur(0);
