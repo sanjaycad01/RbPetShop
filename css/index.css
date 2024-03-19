@@ -216,6 +216,34 @@ main{
     fill: #FFFFFF;
 } */
 
+/*******************************************About us*************************************/
+.about{
+    position: relative;
+    
+}
+.about_head{
+    padding-top: 3rem;
+}
+.about_main{
+    margin-top: 0;
+    position: absolute;
+    width: 75%;
+    background-color: cadetblue;
+    left: 15%;
+}
+.about_one{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+   
+}
+.about_detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 
 
