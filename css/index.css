@@ -220,12 +220,18 @@ main{
 .about{
     position: relative;
     width: 100%;
-    height: 150vh;
-    background-color: gainsboro;
-    
+    height: 140vh;
+    background-color: gainsboro;  
 }
 .about_head{
     padding-top: 3rem;
+    text-align: center;
+}
+.san{
+   padding: 0.5rem;
+   border-radius: 50%;
+   background-color: orange;
+   color: white;
 }
 .about_one{
   width: 80em;
@@ -240,34 +246,54 @@ main{
  margin-top: 2%;
 }
 .about_des{
-    width: 80em;
+  
     /* background-color: teal; */
-    background-color: white;
+    /* background-color: white;
     display: flex;
     justify-content: space-around;
     padding: 4rem; 
+    margin-left: 7%; */
+    width: 80em;
+    height: 40vh;
+    background-color: white;
+   display: flex;
+   justify-content: space-around;
     margin-left: 7%;
+    padding-top: 2rem;
 
 }
 .high_tech{
-    width: 30%;
     display: flex;
     flex-direction: column;
-    gap:0.5rem;
-  
+    justify-content: first baseline;
+    gap:1.5rem;
 }
-.high_tech img{
-    margin-left: 25%;
-    padding: 1rem;
+.high_tech p{
+    font-size:medium;
+    text-align: justify;
 }
-
-.high_tech img:hover{
+.high_tech i{
+    display:inline;
+    border: 2px dotted orange;
+    border-radius: 50%;
+} 
+.high_tech i:hover{
     background-color: orange;
     color: white;
-    border: 2px dashed black;
-
-    border-radius: 5%;
+    border: 2px solid black;
+    border-radius:50%;
 }
+/*******************************************Service Style*************************************/
+.service_head{
+    text-align: center;
+    padding-top: 3rem;
+}
+.var{
+    font-weight: 900;
+ color: orange;
+}
+
+
 
 
 
