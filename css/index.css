@@ -113,7 +113,7 @@ main{
 .cont{
     position: relative;
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .item{
 
@@ -219,30 +219,56 @@ main{
 /*******************************************About us*************************************/
 .about{
     position: relative;
+    width: 100%;
+    height: 150vh;
+    background-color: gainsboro;
     
 }
 .about_head{
     padding-top: 3rem;
 }
-.about_main{
-    margin-top: 0;
-    position: absolute;
-    width: 75%;
-    background-color: cadetblue;
-    left: 15%;
-}
 .about_one{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-   
+  width: 80em;
+  
+  /* background-color: teal; */
+  background-color: white;
+  display: flex;
+ justify-content: center;
+ gap: 5rem;
+ padding: 4rem; 
+ margin-left: 7%;
+ margin-top: 2%;
 }
-.about_detail{
+.about_des{
+    width: 80em;
+    /* background-color: teal; */
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem; 
+    margin-left: 7%;
+
+}
+.high_tech{
+    width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    gap:0.5rem;
+  
 }
+.high_tech img{
+    margin-left: 25%;
+    padding: 1rem;
+}
+
+.high_tech img:hover{
+    background-color: orange;
+    color: white;
+    border: 2px dashed black;
+
+    border-radius: 5%;
+}
+
 
 
 
