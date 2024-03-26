@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 </head>
@@ -75,9 +76,87 @@
         </section>
     </header>
      <main>
-        <article class="cont">
-            <section class="slid">
-                <div class="item">
+        <!-- <article class="cont">
+        <section  class="slid">  -->
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+   
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                
+                  <div class="d-flex">
+                      <img src="image/gold.jpeg" class="d-block w-50" alt="...">
+                      <img src="/image/cute-dog-in-grass.jpg"  class="d-block w-50"alt="">
+                  </div>
+                  <div class="content">
+                    <div class="name"><h1>Welcome</h1></div>
+                    <div class="des"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam repellat laborum totam assumenda iste, neque alias in illum qui cupiditate voluptatibus! Aut quis itaque beatae repellendus recusandae voluptates, eligendi eveniet.
+                    </p></div>
+                    <button>See More</button>
+                </div>
+          
+              </div>
+              <div class="carousel-item ">
+
+          
+                  <div class="d-flex">
+                    <img src="image/nail.jpg" class="d-block w-50" alt="...">
+                    <img src="/image/bath.jpg"  class="d-block w-50"alt="">
+                  </div>
+                  <div class="content">
+                    <div class="name"><h1>Welcome</h1></div>
+                    <div class="des"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam repellat laborum totam assumenda iste, neque alias in illum qui cupiditate voluptatibus! Aut quis itaque beatae repellendus recusandae voluptates, eligendi eveniet.
+                    </p></div>
+                    <button>See More</button>
+                </div>
+          
+              </div>
+              <div class="carousel-item">
+                
+                  <div class="d-flex">
+                    <img src="/image/traning.jpg" class="d-block w-50" alt="...">
+                      <img src="/image/dogpets.jpg"  class="d-block w-50"alt="">
+                  </div>
+                  <div class="content">
+                    <div class="name"><h1>Welcome</h1></div>
+                    <div class="des"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam repellat laborum totam assumenda iste, neque alias in illum qui cupiditate voluptatibus! Aut quis itaque beatae repellendus recusandae voluptates, eligendi eveniet.
+                    </p></div>
+                    <button>See More</button>
+                </div>
+          
+          
+              </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button> -->
+             <div class="carousel-indicators">
+                  <button style="width: 10px; height: 10px; border-radius:50%; background-color: black;" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button style="width: 10px; height: 10px; border-radius:50%;background-color: black;" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button style="width: 10px; height: 10px; border-radius:50%;background-color: black;" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <article class="cont"  id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <section   class="carousel-inner">
+                <div class="item" class="carousel-item active">
                     <div class="rb">
                         <img src="/image/dogpets.jpg" alt="">
                         <img src="/image/gold.jpeg" alt="">
@@ -88,52 +167,34 @@
                         </p></div>
                         <button>See More</button>
                     </div>
-                    <!-- <div class="rb" >
-                        <img src="/image/dogpets.jpg" alt="">
-                        <img src="/image/gold.jpeg" alt="">
-                   </div>
-                    <div class="content">
-                        <div class="name"><h1>Welcome</h1></div>
-                        <div class="des"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam repellat laborum totam assumenda iste, neque alias in illum qui cupiditate voluptatibus! Aut quis itaque beatae repellendus recusandae voluptates, eligendi eveniet.
-                        </p></div>
-                        <button>See More</button>
-                    </div> -->
-                    <!-- <div class="rb" style="display: none;">
-                        <img src="/image/dogpets.jpg" alt="">
-                        <img src="/image/gold.jpeg" alt="">
-                   </div> -->
-                    <!-- <div class="content">
-                        <div class="name"><h1>Welcome</h1></div>
-                        <div class="des"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam repellat laborum totam assumenda iste, neque alias in illum qui cupiditate voluptatibus! Aut quis itaque beatae repellendus recusandae voluptates, eligendi eveniet.
-                        </p></div>
-                        <button>See More</button>
+
+                    <div class="carousel-item">
+       
+
+                        <div class="d-flex rb" >
+                            <img src="/image/nail.jpg" class="d-block w-50" alt="...">
+                            <img src="/image/cute-dog-in-grass.jpg"  class="d-block w-50"alt="">
+                        </div>
+                        <div class="content ">
+                            <h2 class="name">Slide 1 Content</h2>
+                            <p class="des">This is the content for slide 1.</p>
+                            <button>About Us</button>
+                        </div>
+                
                     </div>
-                </div> -->
+                 
 
                 
             </section>
-            <!-- <section class="main_image">
-                <div class="first_img">
-                    <img src="/image/dogpets.jpg" alt="">
-                    <img src="/image/gold.jpeg" alt="">
-                </div>
-                <div class="par">
-                    <div>
-                        <h1>Welcome to Rb Pets Shop</h1>
-                        <p>We offer all the best best quality product and service for your adorable pets</p>
-                    </div>
-                    
-                    </div>
-                </section>
-                -->
-
-                 <!-- <div class="first_img">
-                    <img src="/image/cute-dog-in-grass.jpg" alt="">
-                    <img src="/image/1000_F_633088681_I3bwVFvQosYEEZjromE9zJndbrEZAQrS.jpg" alt="">
-                </div> -->
-           
+            <div class="carousel-indicators">
+                <button style="width: 10px; height: 10px; border-radius:50%; background-color: black;" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button style="width: 10px; height: 10px; border-radius:50%;background-color: black;" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button style="width: 10px; height: 10px; border-radius:50%;background-color: black;" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
             
-        </article>
+        </article> -->
+
+
         <article class="about" >
             <section class="about_head">
                 <h1>ABOUT US</h1>
@@ -217,10 +278,16 @@
                 </div>
             </section>
         </article>
-        <article>
-            <section>
-                <h1>WHY WE ARE BEST</h1>
-                <p><sup class="var">. . . . . . </sup><i class="fa-solid fa-paw san"></i><sup class="var"> . . . . . .</sup></p>
+        <article class="why_we">
+            <section class="why_we_one">
+                <div class="text-center mt-5 ">
+                    <h1>WHY WE ARE BEST</h1>
+                    <p><sup class="var">. . . . . . </sup><i class="fa-solid fa-paw san"></i><sup class="var"> . . . . . .</sup></p>
+                </div>
+              
+                        
+                
+                    
                 
 
             </section>
@@ -228,7 +295,10 @@
     </main> 
     
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <script src="/js/index.js"></script>
+     <!-- Initialize Swiper -->
+
 </body>
 </html>

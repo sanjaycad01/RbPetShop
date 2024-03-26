@@ -110,15 +110,14 @@ main{
     background-color: blue;
     
 } 
-.cont{
+ .cont{
     position: relative;
-    width: 100%;
+    width: 100%; 
     /* border: 2px solid black; */
-}
-.item{
+ }
 
-}
- .rb{
+ 
+  .rb{
     width:100%;
     height: 85vh;
     display: flex;
@@ -126,7 +125,7 @@ main{
 }
 .rb img{
     width: 50%;
-}
+} 
 .content{
     position: absolute;
     top:40%;
@@ -345,8 +344,11 @@ main{
 } 
 
 
+/*******************************************Why We Best Style*************************************/
 
-
+.why_we_one{
+    height: 70vh;
+}
 
 
 
