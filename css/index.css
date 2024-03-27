@@ -346,8 +346,14 @@ main{
 
 /*******************************************Why We Best Style*************************************/
 
-.why_we_one{
+.why_we{
     height: 70vh;
+    position: relative;
+} 
+.why_we_image{
+    position: absolute;
+    top: 30%;
+    left: 5%;
 }
 
 
