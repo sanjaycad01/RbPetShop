@@ -344,6 +344,68 @@ main{
 } 
 
 
+/******************************************Pets For Sale Style*************************************/
+
+.pet_for_sale_head{
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+    gap:2rem;
+    
+}
+.pets_for_sale_pic_one{
+    width: 35%;
+    height: 45vh;
+    position: relative;
+    z-index: 1;
+}
+.pets_for_sale_pic_one img{
+    width: 90%;
+    height: 70%;
+    object-fit: contain;
+    /* background-color: brown; */
+    /* transition: object-fit .5s ease-in ; */
+}
+
+.pets_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0); /* Initially transparent */
+    transition: background-color 0.3s;
+}
+.pets_for_sale_pic_one img:hover .pets_bg{
+    background-color: black;
+
+}
+.pets_for_sale_pic_one img:hover + .overplay_one{
+    
+    display: block;
+    
+}
+
+.overplay_one{
+    display: none;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+.overplay_one .pets_text{
+    color: white;
+    font-size:x-large;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
 /*******************************************Why We Best Style*************************************/
 
 .why_we{
