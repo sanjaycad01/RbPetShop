@@ -349,57 +349,58 @@ main{
 .pet_for_sale_head{
     display: flex;
     justify-content: center;
-   flex-wrap: wrap;
-    gap:2rem;
-    
+    flex-wrap: wrap;
+    column-gap: 3rem;
+    row-gap: 5rem;
+    padding-bottom: 5rem;
 }
 .pets_for_sale_pic_one{
-    width: 35%;
-    height: 45vh;
-    position: relative;
-    z-index: 1;
+   
+   
+
+    position: relative; 
+    width: 450px;
+    height: 200px;
+  
 }
-.pets_for_sale_pic_one img{
-    width: 90%;
-    height: 70%;
+.pets_img{
+
+    width: 450px;
+    height: 200px;
     object-fit: contain;
-    /* background-color: brown; */
-    /* transition: object-fit .5s ease-in ; */
-}
-
-.pets_bg{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0); /* Initially transparent */
-    transition: background-color 0.3s;
-}
-.pets_for_sale_pic_one img:hover .pets_bg{
-    background-color: black;
-
-}
-.pets_for_sale_pic_one img:hover + .overplay_one{
-    
-    display: block;
-    
+        
+  
 }
 
 .overplay_one{
-    display: none;
-    position: absolute;
-    top: 60%;
-    left: 45%;
-    transform: translate(-50%, -50%);
-}
-.overplay_one .pets_text{
-    color: white;
-    font-size:x-large;
-    font-weight: 500;
+position: absolute;
+bottom: 0;
+left: 100%;
+right: 0;
+background-color: rgba(0, 0, 0, 0.33);
+overflow: hidden;
+width: 0;
+height: 100%;
+transition: .5s ease;
 }
 
 
+.pets_for_sale_pic_one:hover .overplay_one{
+    width: 100%;
+    left: 0%;  
+}
+
+.pets_text{
+white-space: nowrap; 
+color: white;
+font-size: 20px;
+position: absolute;
+overflow: hidden;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+}
 
 
 
