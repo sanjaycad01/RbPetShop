@@ -412,27 +412,30 @@ transform: translate(-50%, -50%);
 .why_we{
     height: 80vh;
     background-color:yellowgreen;
-     position: relative; 
+     
 }  
 
 .why_we_main{
-    position: relative;
+    position: relative; 
+    bottom: 30px;
+    right: 10px
 }
 .why_me_content{
     position: absolute;
-    top:45%;
+    top:50%;
     left: 25%;
 
 }
- /* .why_we_image{
+
+  /* .why_we_image{
     border: 2px solid black;
     width: 70%;
     height: 50vh;
     position: absolute;
-     margin-left:20%;
+    margin-left:20%;
     margin-right:10%; 
     
-} */
+}  */
 /* .why_me_section_one{
     gap: 2rem;
 }  */
