@@ -440,8 +440,34 @@ transform: translate(-50%, -50%);
     gap: 2rem;
 }  */
 
-
-
-
-
-
+/*******************************************Our Branches Style*************************************/
+.branch{
+    height: 55vh;
+    background-color: orangered;
+    background-image: url("/image/gold.jpeg");
+    background-repeat: no-repeat;
+    object-fit:contain;
+}
+.branches_main{
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.branch_one{
+    width:300px;
+    height:40vh;
+    background-color: pink;
+    padding: 1rem;    
+}
+.branch_detail{
+    display: flex;
+    flex-direction:row;
+    column-gap: 2rem;
+    padding-top: 1rem;
+}
+.branch_detail p{
+    font-style: normal;
+    font-weight: 600;
+}
